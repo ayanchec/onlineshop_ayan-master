@@ -1,0 +1,47 @@
+2025-02-22T11:01:21.724+05:00  INFO 11852 --- [main] c.e.onlineshop.OnlineshopApplication     : Starting OnlineshopApplication using Java 23.0.1 with PID 11852 (D:\Jasurbek_lab1\onlineshop\target\classes started by Jasur in D:\Jasurbek_lab1\onlineshop)
+2025-02-22T11:01:21.727+05:00  INFO 11852 --- [main] c.e.onlineshop.OnlineshopApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T11:01:22.663+05:00  INFO 11852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-22T11:01:22.719+05:00  INFO 11852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-02-22T11:01:23.250+05:00  INFO 11852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T11:01:23.264+05:00  INFO 11852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T11:01:23.265+05:00  INFO 11852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-22T11:01:23.332+05:00  INFO 11852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-22T11:01:23.333+05:00  INFO 11852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1536 ms
+2025-02-22T11:01:23.541+05:00  INFO 11852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-22T11:01:23.629+05:00  INFO 11852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-22T11:01:23.669+05:00  INFO 11852 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-22T11:01:23.963+05:00  INFO 11852 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-22T11:01:23.993+05:00  INFO 11852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-22T11:01:24.352+05:00  INFO 11852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37ffe4f3
+2025-02-22T11:01:24.355+05:00  INFO 11852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-22T11:01:25.352+05:00  INFO 11852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-22T11:01:25.417+05:00  INFO 11852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-22T11:01:25.769+05:00  WARN 11852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-22T11:01:26.064+05:00  WARN 11852 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-22T11:01:26.205+05:00  INFO 11852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-22T11:01:26.212+05:00  INFO 11852 --- [main] c.e.onlineshop.OnlineshopApplication     : Started OnlineshopApplication in 5.076 seconds (process running for 6.05)
+2025-02-22T11:06:34.830+05:00  INFO 11852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-22T11:06:34.830+05:00  INFO 11852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-22T11:06:34.847+05:00  INFO 11852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-22T11:07:08.843+05:00  INFO 12128 --- [main] c.e.onlineshop.OnlineshopApplication     : Starting OnlineshopApplication using Java 23.0.1 with PID 12128 (D:\Jasurbek_lab1\onlineshop\target\classes started by Jasur in D:\Jasurbek_lab1\onlineshop)
+2025-02-22T11:07:08.848+05:00  INFO 12128 --- [main] c.e.onlineshop.OnlineshopApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T11:07:10.479+05:00  INFO 12128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-22T11:07:10.573+05:00  INFO 12128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2025-02-22T11:07:11.656+05:00  INFO 12128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T11:07:11.687+05:00  INFO 12128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T11:07:11.687+05:00  INFO 12128 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-22T11:07:11.810+05:00  INFO 12128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-22T11:07:11.811+05:00  INFO 12128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2769 ms
+2025-02-22T11:07:12.120+05:00  INFO 12128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-22T11:07:12.231+05:00  INFO 12128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-22T11:07:12.290+05:00  INFO 12128 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-22T11:07:13.071+05:00  INFO 12128 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-22T11:07:13.160+05:00  INFO 12128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-22T11:07:13.966+05:00  INFO 12128 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7df4709e
+2025-02-22T11:07:13.974+05:00  INFO 12128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-22T11:07:16.610+05:00  INFO 12128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-22T11:07:16.758+05:00  INFO 12128 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-22T11:07:17.518+05:00  WARN 12128 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-22T11:07:18.158+05:00  WARN 12128 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-22T11:07:18.503+05:00  INFO 12128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-22T11:07:18.519+05:00  INFO 12128 --- [main] c.e.onlineshop.OnlineshopApplication     : Started OnlineshopApplication in 10.956 seconds (process running for 12.099)
